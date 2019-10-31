@@ -102,6 +102,7 @@ func main() {
 		deals.ClientDealProposal{},
 		deals.ClientDeal{},
 		deals.MinerDeal{},
+		deals.StorageDataTransferVoucher{},
 	)
 	if err != nil {
 		fmt.Println(err)
